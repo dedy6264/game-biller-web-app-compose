@@ -1,6 +1,6 @@
 services:
   makarios-service:
-    container_name: makarios-service-${APP_VERSION}
+    container_name: biller-game-service-${APP_VERSION}
     image: ${REPO_DOCKER}/${APP_NAME}:${APP_VERSION}
     restart: unless-stopped
     tty: true
